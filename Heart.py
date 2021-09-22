@@ -77,9 +77,12 @@ a.to_csv(path_output_file1)
 logging.debug("Wrote results to {}".format(path_output_file1))
 b.to_csv(path_output_file2)
 logging.debug("Wrote results to {}".format(path_output_file2))
-
+b.to_csv(path_output_file3)
 logging.debug("Wrote results to {}".format(path_output_file3))
+b.to_csv(path_output_file4)
 logging.debug("Wrote results to {}".format(path_output_file4))
+b.to_csv(path_output_file5)
 logging.debug("Wrote results to {}".format(path_output_file5))
+
 logging.debug("--KRIS HACKY HACKY 5 OUTPUT FILE--")
 logging.debug("FINISHED ALGORITHM EXECUTION")
